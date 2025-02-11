@@ -1,0 +1,516 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Git	50  MCQ
+Notes
+
+MC s on	it	with answers:
+
+,_
+I. /Nhat is	it?
+a) A programming language
+b) A distributed version control system
+c) A database management tool
+d) A cloud hosting service
+Answer: b)	A distributed version control system
+
+
+2. /Nhich command is used to initialize a new	it	repository?
+a) git start
+b) git init
+c) git new
+d) git repository Answer: b)	git init
+
+
+3. /Nhat command is used to check the status of your it repository?
+a) git check
+b) git status
+c) git verify
+d) git log
+Answer: b)	git status
+
+
+l./. /Nhich command is used to stage changes in	it?
+a) git stage
+b) git add
+
+c) git commit
+d) git push Answer: h) git add
+
+
+S. itJhat does the git commit -m command do?
+a) Commits changes with a message
+h) Stages changes for commit
+c) Pushes changes to the remote repository
+d) Checks the repository status
+Answer: a) Commits changes with a message
+
+
+6. ltJhich command is used to push changes to a remote repository?
+a) git upload
+h)	git update
+c) git push
+d) git send
+Answer.  c) git push
+
+
+7. ltJhat does git clone do?
+a) Copies a file from a remote repository
+h) Creates a new	it	repository
+c) Copies an existing repository to a new directory
+d) Merges changes from two branches
+Answer.  c) Copies an existing repository to a new directory
+
+'8. ltJhich command lists all the branches in a 4it repository?
+a) git branch
+h) git show-branches
+c) git list-branches
+d) git all-branches Answer: a) git branch
+
+
+
+
+q_ ltJhat is the purpose of git merge?
+a) Combines multiple repositories
+h)	Merges changes from one branch into another
+c) Reverts to a previous commit
+d) Deletes a branch	-
+Answer.  h)	Merges changes from one branch into another
+
+
+
+
+JO. INhich file can he used to exclude	files or directories	from being tracked by 4it?
+a) .gitignore
+h)	.gitconfig
+c) .gitkeep
+d) .gittrack
+Answer.  a) .gitignore
+
+
+
+
+
+
+,_
+II. INhat does the git pull command do?
+a) Fetches and merges changes from the remote repository
+h)	Pushes changes to the remote repository
+c) Deletes the remote branch
+
+d) Creates a new branch
+Answer: a)	Fetches and merges changes from the remote repository
+
+
+12. ltJhat is a commit hash in 4it?
+a) A unique identifier for a commit
+b) The name of a branch
+c) The remote repository URL
+d) A tag	for a commit
+Answer: a) A unique identifier for a commit
+
+
+
+,_
+13. How do you discard aJI local changes to a file?
+a) git discard <file>
+b) git restore <file>
+c) git remove <file>
+d) git reset <file>
+Answer: b)	git restore <file>
+
+
+ll/. ltJhat is the purpose of git stash?
+a) Saves changes temporarily without committing
+b) Deletes changes permanently
+c) Creates a new branch
+d) Shows the stash history	-
+Answer: a) Saves changes temporarily without committing
+
+
+IS. ltJhich command is used to view the commit history?
+
+a) git log
+b) git history
+c) git commits
+d) git show Answer: a) git log
+
+
+
+
+16. ltJhat does git diff do?
+a) Compares changes between commits, branches, or the working directory
+b) Creates a new branch
+c) Shows the commit history
+d) Deletes a file	-
+Answer.  a) Compares changes between commits, branches,
+or the working directory
+
+
+
+
+I<
+17. How do you create a new branch in	it?
+a) git branch <branch_name>
+b) git create-branch <branch_name>
+c) git new-branch <branch_name>
+d) git checkout <branch_name> Answer.  a)	git branch <branch_name>
+
+
+/'8. ltJhat does HEAD refer to in	it?
+a) The latest commit in the current branch
+b) A remote branch
+c) The root directory of the repository
+d) A tag	for a commit
+
+Answer: a) The latest commit in the current branch
+
+
+Jq, /Nhat is a remote repository in	it?
+a) A repository located on your local machine
+b) A repository hosted on a server or a cloud platform
+c) A backup of your repository
+d) A repository	for untracked	files
+Answer: b)	A repository hosted on a server or a cloud platform
+
+
+20. How do you rename a branch in	it?
+a) git rename <old _branch> <new_branch>
+b) git branch -m <new_branch_name>
+c) git rename-branch <new_name>
+d) git update-branch <new_name>
+Answer: b)	git branch -m <new_branch_name>
+
+
+21. /Nhat does git rm do?
+a) Removes a file from the staging area and the working directory
+b) Removes a remote branch
+c) Deletes a	it	repository
+d) Restores a deleted	file
+Answer: a) Removes a file from the staging area and the working directory
+
+22. ltJhat is the purpose of git tag?
+a) Labels specific commits for easy reference
+b) Deletes commits
+c) Merges branches
+d) Pushes changes to the remote repository
+Answer: a)	Labels specific commits for easy reference
+
+
+23. ltJhich command sets a remote repository URL?
+a) git remote set-url <remote> <url>
+b) git set-remote <remote> <url>
+c) git url <remote> <url>
+d) git configure <remote> <url>
+Answer.  a)	git remote set-url <remote> <url>
+
+
+2t.,. How do you delete a branch in	it?
+a) git branch -d <branch _name>
+b) git remove <branch_name>
+c) git delete <branch _name>
+d) git branch delete <branch_name> Answer: a) git branch -d <branch_name>
+
+
+
+
+2S. ltJhat is git rebase used	for?
+a) To rewrite commit history by applying changes on top of -
+a base commit
+b) To merge branches
+c) To reset the repository
+d) To fetch changes from a remote repository
+
+Answer: a) To rewrite commit history by applying changes on top of a base commit
+
+
+26. ltJhat does git fetch do?
+a) Fetches changes from the remote repository without merging them
+b) Merges changes from a branch
+c) Creates a new branch
+d) Pushes changes to the remote repository
+Answer: a)	Fetches changes from the remote repository without merging them
+
+
+2 7. ltJhat does git blame do?
+a) Shows the history of a file with line-by-line commit details
+b) Deletes a file from the repository
+c) Merges changes from a branch
+d) Reverts to a previous commit
+Answer: a) Shows the history of a file with line-by-line commit details
+
+
+2'8. ltJhich	file stores the metadata about a	it	repository?
+a) .git
+b) .gitconfig
+c) .gitignore
+d) .gitmetadata Answer: a) .git
+
+2 q. INhat is a merge conflict in	it?
+a) ltJhen two branches have conflicting changes that need manual resolution
+b) ltJhen a branch cannot be deleted
+c) ltJhen a	file is removed	from the	staging area
+d) ltJhen the	remote repository is inaccessible
+Answer: a) ltJhen two branches have conflicting changes that need manual resolution
+
+
+30. ltJhich command is used to undo a commit and move changes back to the staging area?
+a) git reset --soft
+b) git revert
+c) git checkout
+d) git restore
+Answer.  a)	git reset --soft
+
+
+31. How do you permanently delete untracked	files in	it?	-
+a) git rm <file>
+b) git clean -f
+c) git reset <file>
+d) git restore <file> Answer.  b)	git clean -f
+
+
+32. ltJhat does the git cherry-pick command do?
+a) Applies a specific commit	from one branch to another
+b) fv1erges changes from the	main branch
+
+c) l>eletes commits from a branch
+d) Resolves merge conflicts
+Answer: a)	Applies a specific commit from one branch to another
+
+
+33. INhat does git config --global do?
+a) Configures global 4it settings for all repositories
+h) Configures settings for a specific repository
+c) Sets a global remote URL
+d) l>eletes global configuration settings
+Answer: a) Configures global 4it settings for all repositories
+
+
+3t.,. INhich command lists the files modified in a specific commit?
+a) git show <commit_hash >
+h)	git list <commit_hash>
+c) git log <commit_hash >
+d) git diff <commit_hash>
+Answer: a) git show <commit_hash>
+
+
+
+
+3S.	INhat does the git revert command do?
+a) Creates a new commit that undoes changes made by a previous commit
+h) l>eletes a commit permanently
+c) Moves hack to a previous branch
+d) Stages changes for commit
+Answer: a) Creates a new commit that undoes changes
+
+made by a previous commit
+
+
+
+36. 1,,Jhat is the default branch created by	it	when a repository is initialized?
+a) main
+b) master
+c) default
+d) develop
+Answer: b)	master
+
+
+37. How do you rename a remote repository in	it?
+a) git remote rename <old _name> <new_name>
+b) git rename-remote <old_name> <new_name>
+c) git remote change <new_name>
+d) git remote update <new_name>
+Answer: a) git remote rename <old_name> <new_name>
+
+
+3'8. 1,,Jhat is the difference between git reset and git revert?
+a) git reset permanently deletes commits, git revert creates a new commit to undo changes
+b) git reset is used	for stashing, git revert is used	for mergi.ng
+c) git reset works with branches, git revert works with files
+d) Both are the same
+Answer.  a)	git reset permanently deletes commits, git revert creates a new commit to undo changes
+
+3q, How do you list all remote repositories?
+a) git remote
+b) git remote -v
+c) git remote list
+d) git show remotes Answer: b)	git remote -v
+
+
+l/0. How can you view the details of a specific commit?
+a) git show <commit_hash >
+b) git commit <commit_hash>
+c) git view <commit_hash>
+d) git detail <commit_hash > Answer.  a)	git show <commit_hash>
+
+
+l/1. ltJhich command creates a lightweight, movable pointer to a specific commit?
+a) git branch
+b) git tag
+c) git checkout
+d) git reset
+Answer.  a)	git branch
+
+
+l/2. ltJhat is the purpose of git checkout -b <branch_name>?
+a) Creates a new branch and switches to it
+b) Deletes a branch
+c) Merges a branch
+d) Switches to an existing branch
+
+Answer: a) Creates a new branch and switches to it
+
+
+
+
+l./3. itJhat does git rm --cached <file> do?
+a) Removes a file from the staging area hut keeps it in the	-
+working directory
+h)	Deletes a file permanently
+c) Removes a file from the remote repository
+d) Resets the file to its previous commit state
+Answer: a) Removes a file from the staging area hut keeps	-
+it in the working directory
+
+t.,t.,, How do you see aJJ stashes created in a	it	repository?	-
+a) git stash show
+h) git stash list
+c) git list stash
+d) git show stash Answer: h) git stash list
+
+
+l./S. itJhat is the origin in	it?
+a) The name of the def ault remote repository
+h) The name of the local repository
+c) A default branch in	it
+d) The name of a commit
+Answer: a) The name of the default remote repository
+
+
+l./6. itJhat does git commit --amend do?
+
+a) Modifies the most recent commit message or adds changes to the previous commit
+h)	Deletes the previous commit
+c) Creates a new branch
+d) Pushes changes to the remote repository
+Answer: a) Modifies the most recent commit message or adds changes to the previous commit
+
+
+t.,7. ltJhat does git bisect help with?
+a) Finding the commit that introduced a hug
+h)	Merging two branches
+c) Staging changes
+d) Reverting to a previous commit
+Answer: a)	Finding the commit that introduced a hug
+
+
+l/'8. ltJhat is a hare repository in 4it?
+a) A repository without a working directory
+h)	A repository with no branches
+c) A repository that does not track changes
+d) A repository with no remote URL
+Answer.  a)	A repository without a working directory
+
+
+t.,q, How do you reset the last commit hut keep the changes?
+a) git reset --soft HEAT>/
+c) git revert HEAT>
+d) git remove HEAT>/
+
+SO. INhat does the git log --oneline command do?
+a) Displays a concise log of commits in one line per commit
+b) Shows the log with detailed commit information
+c) Lists all branches
+d) Shows only the latest commit
+Answer: a)	Displays a concise log of commits in one line per commit
+
+
+SI. INhat is the purpose of the git reflog command?
+a) Tracks updates to references such as branches and HEAD
+b) Shows the log of commits
+c) Lists the stashed changes
+d) Deletes unreferenced commits
+Answer: a) Tracks updates to references such as branches and HEAD
+
+
+S2. How do you undo a git merge that hasn't been committed yet?
+a) git merge --abort
+b) git reset --merge
+c) git revert merge
+d) git restore merge
+Answer: a) git merge --abort
+
+
+S3. INhat is the difference between git fetch and git pull?
+a) git fetch retrieves changes without merging, git pull retrieves and merges changes
+
+b) git fetch deletes remote branches, git puJJ merges local -
+branches
+c) git fetch stages changes, git puJJ commits changes
+d) Both perform the same action
+Answer: a) git fetch retrieves changes without merging, git puJJ retrieves and merges changes
+
+
+St.,. 1.Jhat does git submodule do?
+a) Manages dependencies within a repository
+b) Merges changes from a branch
+c) Tracks file changes
+d) Deletes branches
+Answer.  a)	Manages dependencies within a repository
+
+
+
+
+SS. 1.Jhat does the --force	flag do when pushing to a remote repository?
+a) Overwrites the remote branch with local changes
+b) Merges aJJ changes without conflict
+c) Deletes the remote branch
+d) Creates a new branch
+Answer.  a) Overwrites the remote branch with local changes
+
+
+
+
+S6. 1.Jhat does the git gc command do?	-
+a) Cleans up unnecessary	files and optimizes the repository
+b) Deletes remote branches
+c) Reverts commits
+d) Merges branches
+
+Answer: a) Cleans up unnecessary	files and optimizes the repository
+
+
+S7. ltJhat is the purpose of git config --list?
+a) Displays all	it	configuration settings
+b) Lists all branches
+c) Lists all remote repositories
+d) Shows the commit history
+Answer: a)	Displays all	it	configuration settings
+
+
+S'8. ltJhat does the git archive command do?
+a) Creates a zip or tar archive of the repository content
+b) Deletes old branches
+c) Reverts changes
+d) Lists commit history
+Answer: a) Creates a zip or tar archive of the repository content
+
+
+
