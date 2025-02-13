@@ -1,0 +1,272 @@
+---
+
+Day 1 - Basics of Git & GitHub
+
+Q1: What is GitHub?
+
+Ans: GitHub is a cloud-based platform that provides distributed version control and source code management (SCM) using Git. It allows multiple developers to collaborate on code repositories.
+
+Q2: What are some popular source code management (SCM) tools apart from GitHub?
+
+Ans: Some alternatives to GitHub are:
+
+Git-based: GitLab, Bitbucket
+
+Non-Git: SVN (Subversion), TFS (Team Foundation Server), CVS (Concurrent Versions System)
+
+
+Q3: What is the difference between a public and a private repository?
+
+Ans:
+
+Public Repo: Visible to everyone on GitHub. Anyone can clone and view the code.
+
+Private Repo: Restricted to only invited users.
+
+
+Q4: How do you delete a repository, team, or organization in GitHub?
+
+Ans:
+
+Delete Repo: Go to repository settings → Scroll down → Delete repository.
+
+Delete Team: Organization settings → Teams → Select team → Delete.
+
+Delete Organization: Not possible, but you can remove all members and repositories to deactivate it.
+
+
+
+---
+
+Day 2 - Git Commands & Setup
+
+Q5: How do you check the installed Git version?
+
+Ans: Run the following command in Git Bash:
+
+git --version
+
+Q6: What are the different areas in a Git repository?
+
+Ans:
+
+1. Working Area → Files that are modified but not yet staged.
+
+
+2. Staging Area → Files added using git add.
+
+
+3. Local Repository → Files committed using git commit.
+
+
+
+Q7: How do you configure a Git user?
+
+Ans:
+
+git config --global user.name "YourName"
+git config --global user.email "youremail@example.com"
+git config --global --list   # To verify configuration
+
+Q8: How do you check which remote repositories are linked to your local repo?
+
+Ans:
+
+git remote -v
+
+Q9: How do you connect a local repo to a remote repository?
+
+Ans:
+
+git remote add origin https://github.com/username/repo.git
+git push -u origin master
+
+Q10: How do you remove a remote alias?
+
+Ans:
+
+git remote remove <alias_name>
+
+Q11: How do you see the commit history?
+
+Ans:
+
+git log    # Shows all commit history
+git log -2  # Shows last 2 commits
+
+Q12: How do you commit changes directly from the working directory to the local repo?
+
+Ans:
+
+git commit -a -m "Updated code"
+
+(Note: This works only for tracked files, not new files.)
+
+
+---
+
+Day 3 - File Management & Reverting Changes
+
+Q13: How do you see which files were changed in a commit?
+
+Ans:
+
+git show <commit_id>
+git show --pretty="" --name-only <commit_id>
+
+Q14: How do you remove untracked files from the working area?
+
+Ans:
+
+git clean -n   # Shows files that will be deleted
+git clean -f   # Deletes untracked files
+
+Q15: How do you move files from the staging area back to the working directory?
+
+Ans:
+
+git reset      # Moves all files
+git reset <filename>  # Moves a specific file
+
+Q16: What is the difference between git reset and git revert?
+
+Ans:
+
+git reset: Moves files from staging to working directory.
+
+git revert <commit_id>: Creates a new commit that undoes the changes of the given commit.
+
+
+Q17: Where are Git credentials stored?
+
+Ans:
+
+Windows → Credential Manager
+
+Mac → Keychain Access
+
+
+
+---
+
+Day 4 - Branching & Merging
+
+Q18: What are different types of Git branches?
+
+Ans:
+
+Master (Main) → Production-ready branch.
+
+Development → Active development branch.
+
+Feature Branch → Used for new features.
+
+Release Branch → Used for preparing production releases.
+
+Hotfix Branch → Used for quick fixes.
+
+
+Q19: How do you create a new branch?
+
+Ans:
+
+git branch <branch_name>
+
+Q20: How do you switch branches?
+
+Ans:
+
+git checkout <branch_name>
+
+or
+
+git switch <branch_name>
+
+Q21: How do you merge a branch into another branch?
+
+Ans:
+
+git checkout master
+git merge development
+
+Q22: What is a merge conflict?
+
+Ans: A merge conflict occurs when two branches modify the same part of a file. Git cannot automatically merge these changes, so manual intervention is required.
+
+
+---
+
+Day 5 - Branch vs Tag & Git Stash
+
+Q23: What is the difference between a Git branch and a Git tag?
+
+Ans:
+| Feature | Branch | Tag | |---------|--------|-----| | Mutability | Mutable | Immutable | | When Created? | During development | After production release | | Commands | git branch | git tag |
+
+Q24: How do you create a tag?
+
+Ans:
+
+git tag v1.0.0
+git push origin v1.0.0
+
+Q25: What is Git Stash, and how do you use it?
+
+Ans: Git stash temporarily saves changes in the working area so you can switch branches without losing work.
+
+git stash save "Work in progress"
+git stash list
+git stash apply stash@{0}
+git stash drop stash@{0}
+git stash pop   # Apply and delete stash
+
+
+---
+
+Day 6 - Merging Strategies & Cherry-Picking
+
+Q26: What is Fast-Forward Merge?
+
+Ans: A fast-forward merge happens when no new commits have been added to the target branch since the feature branch was created.
+
+Q27: What is a Three-Way Merge?
+
+Ans: A three-way merge creates a new merge commit when both branches have diverged and contain new changes.
+
+Q28: What is Git Cherry-Pick?
+
+Ans: git cherry-pick <commit_id> allows you to apply specific commits from one branch to another.
+
+
+---
+
+Day 7 - SSH Keys & Best Practices
+
+Q29: How do you generate SSH keys for GitHub?
+
+Ans:
+
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+cat ~/.ssh/id_rsa.pub  # Copy the public key to GitHub
+
+Q30: What are some Git best practices?
+
+Ans:
+
+Commit only completed work
+
+Write meaningful commit messages
+
+Test your code before committing
+
+Avoid merging directly into the master branch
+
+Use feature branches and pull requests
+
+Regularly clean up unused branches
+
+
+
+---
+
+These questions cover both basic and advanced Git concepts. Let me know if you need more!
